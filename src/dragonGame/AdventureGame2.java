@@ -54,7 +54,7 @@ while (play.equalsIgnoreCase("y") ){
 		if (eyes.equalsIgnoreCase("red")){
 			gameOn=5;}
 		else {
-			System.out.println("The dragon ate you and used your sword as a toothpick!");
+			System.out.println("It turns out that blue-eyed dragons are friendly! You're safe to go on with your day!");
 			play = "n";
 			break;
 		}
