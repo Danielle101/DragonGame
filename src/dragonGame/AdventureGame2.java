@@ -14,7 +14,7 @@ public class AdventureGame2 {
 
 			String name = Validator.get_String("\nWhat is your name?:");
 
-			String play = Validator.getString("Would your like to play a game?(y/n):");
+			String play = Validator.getString("Would your like to play?(y/n):");
 			int gameOn = 1;
 			while (play.equalsIgnoreCase("y")) {
 				switch (gameOn) {
